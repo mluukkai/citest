@@ -22,7 +22,6 @@ processes = []
   app = "node app.js"
 
 [[services]]
-  http_checks = []
   internal_port = 8080
   processes = ["app"]
   protocol = "tcp"
