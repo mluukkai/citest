@@ -1,3 +1,5 @@
 #!/bin/sh
 
-exit 1
+echo "Hello from shell script"
+
+exit 0
