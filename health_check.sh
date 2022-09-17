@@ -1,12 +1,13 @@
 #!/bin/sh
 
-echo "Hello from shell script"
 
-curl localhost:8080/healtha
+OUT=$(curl localhost:8080/health)
 
-if [ $? -eq 0 ]; 
-then 
-    exit 1
+if [ $OUT == 'ok' ]; 
+then
+    echo 'equal'
+    exit 0
 else 
-    exit 0 
+    echo 'not equal'
+    exit 1 
 fi
