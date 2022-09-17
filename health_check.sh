@@ -2,4 +2,4 @@
 
 echo "Hello from shell script"
 
-exit 0
+curl localhost:8080/healtha
