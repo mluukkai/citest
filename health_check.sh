@@ -3,7 +3,7 @@
 
 OUT=$(curl localhost:8080/health)
 
-if [ $OUT == 'ok' ]; 
+if [ $OUT == 'shit' ]; 
 then
     exit 0
 else 
