@@ -16,5 +16,5 @@ then
     exit 0
 else 
     echo 'not equal'
-    exit 0
+    exit 1
 fi
