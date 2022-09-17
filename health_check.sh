@@ -6,7 +6,7 @@ curl localhost:8080/healtha
 
 if [ $? -eq 0 ]; 
 then 
-    exit 0
+    exit 1
 else 
     exit 1 
 fi
