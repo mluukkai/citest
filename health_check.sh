@@ -2,7 +2,7 @@
 
 echo "Hello from shell script"
 
-OUT=$(curl localhost:5000/health)
+OUT=$(curl localhost:8080/health)
 
 echo $?
 echo '-'
