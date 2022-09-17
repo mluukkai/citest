@@ -13,8 +13,8 @@ echo $OUT == 'ok'
 if [ $OUT == 'ok' ]; 
 then
     echo 'equal'
-    exit 1
+    exit 0
 else 
     echo 'not equal'
-    exit 1 
+    exit 0
 fi
