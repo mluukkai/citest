@@ -1,6 +1,6 @@
 #!/bin/bash
 
-OUT=$(curl localhost:8080/health)
+OUT=$(curl -s https://silent-meadow-3241.fly.dev/health)
 
 if [ $OUT == 'ok' ]; 
 then
